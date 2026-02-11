@@ -452,3 +452,75 @@ artificial general intelligence agent, AGI agent, narrow AI agent, weak AI agent
 *Last Updated: January 29, 2026*
 </details>
 
+
+---
+
+## 🌐 Live HTTP Deployment
+
+**Binance US MCP** is deployed and accessible over HTTP via [MCP Streamable HTTP](https://modelcontextprotocol.io/specification/2025-03-26/basic/transports#streamable-http) transport — no local installation required.
+
+**Endpoint:**
+```
+https://modelcontextprotocol.name/mcp/binance-us-mcp
+```
+
+### Connect from any MCP Client
+
+Add to your MCP client configuration (Claude Desktop, Cursor, SperaxOS, etc.):
+
+```json
+{
+  "mcpServers": {
+    "binance-us-mcp": {
+      "type": "http",
+      "url": "https://modelcontextprotocol.name/mcp/binance-us-mcp"
+    }
+  }
+}
+```
+
+### Available Tools (3)
+
+| Tool | Description |
+|------|-------------|
+| `get_ticker_price` | Get price on Binance.US |
+| `get_24h_stats` | 24h statistics |
+| `get_order_book` | Order book |
+
+### Example Requests
+
+**Get price on Binance.US:**
+```bash
+curl -X POST https://modelcontextprotocol.name/mcp/binance-us-mcp \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","id":1,"method":"tools/call","params":{"name":"get_ticker_price","arguments":{"symbol":"BTCUSD"}}}'
+```
+
+**24h statistics:**
+```bash
+curl -X POST https://modelcontextprotocol.name/mcp/binance-us-mcp \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","id":1,"method":"tools/call","params":{"name":"get_24h_stats","arguments":{"symbol":"ETHUSD"}}}'
+```
+
+**Order book:**
+```bash
+curl -X POST https://modelcontextprotocol.name/mcp/binance-us-mcp \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","id":1,"method":"tools/call","params":{"name":"get_order_book","arguments":{"symbol":"BTCUSD","limit":5}}}'
+```
+
+### List All Tools
+
+```bash
+curl -X POST https://modelcontextprotocol.name/mcp/binance-us-mcp \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","id":1,"method":"tools/list"}'
+```
+
+### Also Available On
+
+- **[SperaxOS](https://speraxos.vercel.app)** — Browse and install from the [MCP marketplace](https://speraxos.vercel.app/community/mcp)
+- **All 27 MCP servers** — See the full catalog at [modelcontextprotocol.name](https://modelcontextprotocol.name)
+
+> Powered by [modelcontextprotocol.name](https://modelcontextprotocol.name) — the open MCP HTTP gateway
