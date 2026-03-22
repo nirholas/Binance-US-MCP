@@ -1,4 +1,4 @@
-# Binance.US MCP Server  
+# Binance.US MCP Server   
  
 A Model Context Protocol (MCP) server for interacting with the Binance.US cryptocurrency exchange API.
  
