@@ -227,7 +227,7 @@ Detailed documentation is available in the `docs/` folder:
 
 ## License
 
-MIT License - see [LICENSE](../LICENSE) for details.
+All rights reserved. See [LICENSE](LICENSE).
 
 ## Resources
 
@@ -451,7 +451,6 @@ artificial general intelligence agent, AGI agent, narrow AI agent, weak AI agent
 *Total Keywords: 6500+*
 *Last Updated: January 29, 2026*
 </details>
-
 
 ---
 
