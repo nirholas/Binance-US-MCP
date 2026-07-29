@@ -55,8 +55,8 @@ Binance.US offers three types of API keys:
 
 ```bash
 # Clone the repository
-git clone https://github.com/nirholas/universal-crypto-mcp.git
-cd universal-crypto-mcp/binance-us-mcp-server
+git clone https://github.com/nirholas/Binance-US-MCP.git
+cd Binance-US-MCP
 
 # Install dependencies
 npm install
