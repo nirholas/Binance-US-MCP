@@ -1,6 +1,6 @@
 {
   "name": "@nirholas/binance-us-mcp-server",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "MCP server for Binance.US exchange - spot trading, wallet management, and US-specific features",
   "type": "module",
   "main": "./build/index.js",
