@@ -1,0 +1,16 @@
+{
+  "name": "binance-us-mcp",
+  "version": "1.0.2",
+  "description": "MCP server for Binance.US: market data, spot trading, wallet, staking and OTC tools.",
+  "author": {
+    "name": "nirholas"
+  },
+  "repository": "https://github.com/nirholas/Binance-US-MCP",
+  "homepage": "https://github.com/nirholas/Binance-US-MCP",
+  "keywords": [
+    "binance-us",
+    "mcp",
+    "trading",
+    "crypto"
+  ]
+}
