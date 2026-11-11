@@ -1,0 +1,21 @@
+{
+  "name": "binance-us-mcp",
+  "owner": {
+    "name": "nirholas"
+  },
+  "description": "MCP server for Binance.US: market data, spot trading, wallet, staking and OTC tools.",
+  "plugins": [
+    {
+      "name": "binance-us-mcp",
+      "source": "./plugins/binance-us-mcp",
+      "description": "MCP server for Binance.US: market data, spot trading, wallet, staking and OTC tools.",
+      "category": "finance",
+      "tags": [
+        "binance-us",
+        "mcp",
+        "trading",
+        "crypto"
+      ]
+    }
+  ]
+}

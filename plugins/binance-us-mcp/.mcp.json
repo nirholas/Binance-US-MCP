@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "binance-us": {
+      "command": "npx",
+      "args": ["-y", "@nirholas/binance-us-mcp-server"]
+    }
+  }
+}
